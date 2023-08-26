@@ -1,0 +1,70 @@
+.navbar-main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  //   background-color: beige;
+  width: 90%;
+  min-height: 100px;
+}
+
+.navbar-middle-container {
+  display: flex;
+  //   background-color: aqua;
+}
+
+.navbar-end-container {
+  display: flex;
+  align-items: center;
+  //   background-color: aquamarine;
+}
+
+.middle-button {
+  font-family: "Inter";
+  color: #807f7e;
+  margin: 0 10px;
+}
+
+.try {
+  height: 50px;
+  width: 140px;
+  color: white;
+  background-color: #133416;
+}
+
+.middle-button.try:hover {
+  border-color: white;
+  color: white;
+}
+
+.dropdown-container {
+}
+
+.option-container {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  padding: 15px;
+  //   margin: 30px;
+
+  .text-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    margin-left: 15px;
+    width: 350px;
+    // background-color: #807f7e;
+  }
+
+  .option-title {
+    // background-color: #133416;
+    font-family: "Inter";
+    font-weight: 700;
+    margin-top: 0;
+  }
+  .option-desc {
+    font-family: "Inter";
+    color: #748492;
+    margin-top: 0;
+  }
+}
