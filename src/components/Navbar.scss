@@ -2,9 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  //   background-color: beige;
-  width: 90%;
+  // background-color: beige;
+  width: 80%;
   min-height: 100px;
+}
+
+.none {
+  display: none;
 }
 
 .navbar-middle-container {
@@ -66,5 +70,35 @@
     font-family: "Inter";
     color: #748492;
     margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 925px) {
+  .navbar-main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // background-color: beige;
+    width: 90%;
+    min-height: 100px;
+  }
+
+  .navbar-middle-container {
+    display: none;
+    background-color: aqua;
+  }
+
+  .navbar-end-container {
+    display: none;
+  }
+
+  .none {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .option-container {
+    width: 280px;
   }
 }
